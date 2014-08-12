@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=611232F1
+eax=00000001 ebx=00000001 ecx=00000000 edx=00000001 esi=00000000 edi=00000001
+ebp=00281488 esp=00281484 program=D:\ITMO\Degree\Programs\Real exp\Montage\Montage_v3.3\grid\Pegasus\mDAG.exe, pid 664, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+00281488  611232F1 (00000001, 00281534, 00445444, 00000001)
+002815B4  6112EE0D (00000001, 0028374C, 00000000, 00000000)
+End of stack trace
