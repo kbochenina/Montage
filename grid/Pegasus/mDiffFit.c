@@ -163,14 +163,14 @@ int main(int argc, char **argv)
          sprintf(cmd, "%s/bin/mDiff -n %s %s %s %s", path, input_file1, input_file2,
             output_file, template_file);
       else
-         sprintf(cmd, "./mDiff -n %s %s %s %s", input_file1, input_file2,
+         sprintf(cmd, "mDiff -n %s %s %s %s", input_file1, input_file2,
             output_file, template_file);
    else
       if(path)
          sprintf(cmd, "%s/bin/mDiff %s %s %s %s", path, input_file1, input_file2,
             output_file, template_file);
       else 
-         sprintf(cmd, "./mDiff %s %s %s %s", input_file1, input_file2,
+         sprintf(cmd, "mDiff %s %s %s %s", input_file1, input_file2,
             output_file, template_file);
 
 
@@ -214,7 +214,7 @@ int main(int argc, char **argv)
    if(path)
       sprintf(cmd, "%s/bin/mFitplane -b %d %s", path, border, output_file);
    else
-      sprintf(cmd, "./mFitplane -b %d %s", border, output_file);
+      sprintf(cmd, "mFitplane -b %d %s", border, output_file);
 
    if(debug)
    {
